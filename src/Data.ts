@@ -193,7 +193,7 @@ export const chartBoxProduct = {
   dataKey: "products",
   percentage: 21,
   chartData: [
-    { name: "Sun", products: 400 },
+    { name: "Sun", products: 200 },
     { name: "Mon", products: 600 },
     { name: "Tue", products: 500 },
     { name: "Wed", products: 700 },
@@ -211,10 +211,10 @@ export const chartBoxRevenue = {
   percentage: -12,
   chartData: [
     { name: "Sun", revenue: 400 },
-    { name: "Mon", revenue: 600 },
-    { name: "Tue", revenue: 500 },
+    { name: "Mon", revenue: 500 },
+    { name: "Tue", revenue: 800 },
     { name: "Wed", revenue: 700 },
-    { name: "Thu", revenue: 400 },
+    { name: "Thu", revenue: 200 },
     { name: "Fri", revenue: 500 },
     { name: "Sat", revenue: 450 },
   ],
@@ -227,13 +227,13 @@ export const chartBoxConversion = {
   dataKey: "ratio",
   percentage: 12,
   chartData: [
-    { name: "Sun", ratio: 400 },
+    { name: "Sun", ratio: 800 },
     { name: "Mon", ratio: 600 },
     { name: "Tue", ratio: 500 },
-    { name: "Wed", ratio: 700 },
+    { name: "Wed", ratio: 800 },
     { name: "Thu", ratio: 400 },
-    { name: "Fri", ratio: 500 },
-    { name: "Sat", ratio: 450 },
+    { name: "Fri", ratio: 200 },
+    { name: "Sat", ratio: 500 },
   ],
 };
 
@@ -284,19 +284,19 @@ export const barChartBoxVisit = {
     },
     {
       name: "Mon",
-      visit: 3000,
+      visit: 4000,
     },
     {
       name: "Tue",
-      visit: 2000,
+      visit: 1140,
     },
     {
       name: "Wed",
-      visit: 2780,
+      visit: 6880,
     },
     {
       name: "Thu",
-      visit: 1890,
+      visit: 2440,
     },
     {
       name: "Fri",
@@ -304,7 +304,7 @@ export const barChartBoxVisit = {
     },
     {
       name: "Sat",
-      visit: 3490,
+      visit: 2670,
     },
   ],
 };
