@@ -47,6 +47,22 @@ function App() {
           path: "products",
           element: <Products />,
         },
+        {
+          path: "users/1",
+          // element: <Products />,
+        },
+        {
+          path: "orders",
+          // element: <Products />,
+        },
+        {
+          path: "posts",
+          // element: <Products />,
+        },
+        {
+          path: "elements",
+          // element: <Products />,
+        },
       ],
     },
     {
